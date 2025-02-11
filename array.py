@@ -67,6 +67,10 @@ def bubble_sort(data, canvas):
             if data[j] > data[j + 1]:
                 
                 data[j], data[j + 1] = data[j + 1], data[j]
+               
+               
+               
+               
                 #erro na animação
                 if primeiroloop == True:
                   animate_swap(canvas, j , j+1 , positions)
@@ -116,3 +120,4 @@ if __name__ == "__main__":
     main()
 
 
+ # type: ignore
